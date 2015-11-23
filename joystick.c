@@ -42,8 +42,8 @@ static struct joystick_axis ps3_axes[JOYSTICK_NUM_AXIS] = { {2, 1}, {3, -1}, {1,
 
 #define JOYSTICK_AXIS_MIN -32767.0f
 #define JOYSTICK_AXIS_MAX  32767.0f
-#define JOYSTICK_PWM_MIN   1100.0f
-#define JOYSTICK_PWM_MAX   1900.0f
+#define JOYSTICK_PWM_MIN   1000.0f
+#define JOYSTICK_PWM_MAX   2000.0f
 
 static const struct joystick_pwms def_pwms = {1500, 1500, 1500, 1500, 1500};
 /* these values are in the middle of the ranges that are documented
