@@ -40,7 +40,7 @@ static uint8_t hk_simulator_buttons[JOYSTICK_NUM_MODES] = { 0, 1, 2, 3, 4, 5 };
 static struct joystick_axis skycontroller_axes[JOYSTICK_NUM_AXIS] = {{2, 1}, {3, -1}, {1, -1}, {0, 1}};
 static struct joystick_axis xbox360_axes[JOYSTICK_NUM_AXIS] = {{3, 1}, {4, 1}, {1, -1}, {0, 1}};
 static struct joystick_axis ps3_axes[JOYSTICK_NUM_AXIS] = { {2, 1}, {3, -1}, {1, -1}, {0, 1}};
-static struct joystick_axis hk_simulator_axes[JOYSTICK_NUM_AXIS] = { {0, 1}, {1, -1}, {2, -1}, {5, 1} };
+static struct joystick_axis hk_simulator_axes[JOYSTICK_NUM_AXIS] = { {0, 1}, {1, 1}, {2, -1}, {5, 1} };
 
 #define JOYSTICK_AXIS_MIN -32767.0f
 #define JOYSTICK_AXIS_MAX  32767.0f
